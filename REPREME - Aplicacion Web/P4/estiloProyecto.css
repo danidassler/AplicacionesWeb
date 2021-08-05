@@ -1,0 +1,849 @@
+body {
+	background-color: #CDCDCD;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+div.contenedor {
+	width: 100%;
+	margin: auto;
+	border: 1px solid black;
+	background-color: white;
+	margin-top:0px auto;
+	display: inline-flex;
+	flex-direction: column;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+div.cabeceraProductos{
+	height: 20%;
+	background-repeat: no-repeat;
+	/*font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;*/
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 600%;
+	text-align: center;
+}
+
+div#contenedor_n {
+	width: 100%;
+	margin: auto;
+	border: 1px solid black;
+	background-image:  url("img/news3.dif.png");
+	margin-top:0px auto;
+	display:flex;
+	flex-direction: column;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+
+}
+
+div#filtrado {
+text-align: center;
+padding-bottom: 2%;
+
+}
+
+
+
+
+
+
+div#cabeceraNoticias{
+	height: 20%;
+	background-repeat: no-repeat;
+	/*font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;*/
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 600%;
+	text-align: center;
+	background-image: url("img/puente.jpg");
+	background-size: 100% 400%;
+}
+
+div#contenido_noticias{
+	float: center;
+	margin-left: auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	margin-top:auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image:  url("img/news3.dif.png");
+}
+div#lateral{
+	margin: 0;
+	height: 100%;
+	width:20%;
+	padding-left: 2%;
+}
+
+
+div#noEncontrado{
+	padding-left: 35%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+div.titulo_noticia{
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 50px;
+	text-align: center;
+}
+#bucaNoticia{
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+div.imagen_noticia{
+	float:center;
+	text-align: center;
+	border: 5px solid black;
+	/* Estaria guapo que para cada noticia el backgound de esta zona 
+	sea la misma imagen que la de la noticia, pero es dificil de hacer
+	background-image : url("img/chanelPdif.png");*/
+}
+div.imagen_noticia2{
+	float:center;
+	text-align: center;
+	/* aqui no pongo el borde porque el div no solo abarca la imagen si nn¡o hasta los lados tambien y queda mal
+	/* Estaria guapo que para cada noticia el backgound de esta zona 
+	sea la misma imagen que la de la noticia, pero es dificil de hacer
+	background-image : url("img/chanelPdif.png");*/
+}
+div.descripcion_noticia{
+	float:center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 4%;
+	font-size: 20px;
+}
+
+div.cabeceraProductos #ropa{
+	background-image: url("img/ropa2.png");
+	background-size: 100% 150%;
+}
+div.cabeceraProductos #sneakers{
+	background-image: url("img/sneakers2.png");
+	background-size: 100% 600%;
+}
+div.cabeceraProductos #accesorios{
+	background-image: url("img/accesorio2.png");
+	background-size: 100% 600%;
+}
+div.cabeceraProductos #admin{
+	background-image: url("img/puente.jpg");
+	background-size: 100% 400%;
+}
+div.cabeceraProductos #todos{
+	background-image: url("img/skates2.png");
+	background-size: 100% 400%;
+}
+
+div#contenidoIndex1{
+	height: 20%;
+	background-repeat: no-repeat;
+	font-family: "Lucida Console", Courier, monospace;
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 600%;
+	text-align: center;
+	color: white;
+	background-image: url("img/store.png");
+	background-size: 100% 400%;
+}
+
+a#tienda{
+	color: white;
+}
+
+input#botonNI{
+	color: #fff;
+	background: #303030;
+	border: 1px solid black;
+	height: 50px;
+	font-family:"Lucida Console", Courier, monospace;
+	width: 100px;
+}
+
+
+div#contenidoIndex2{
+	height: 300px;
+	background-repeat: no-repeat;
+	font-family: "Lucida Console", Courier, monospace;
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 600%;
+	text-align: center;
+	color: black;
+	background-image: url("img/news3.jpg");
+	background-size: 100% 400%;
+}
+div#contenidoIndex3{
+	height: 300px;
+	background-repeat: no-repeat;
+	font-family: "Lucida Console", Courier, monospace;
+	font-family: Lobster;
+	font-variant: small-caps;
+	font-size: 300%;
+	text-align: center;
+	vertical-align: center;
+	color: black;
+	background-image: url("img/tnfdif.png");
+	background-size: 100% 400%;
+}
+
+div.producto{
+	flex-direction: row;
+	display:flex;
+}
+div.descp{
+	flex-direction: column;
+	padding-left: 50px;
+}
+
+div#contenidoU{
+	padding-left: 15%;
+	flex-direction: row;
+	display:flex;
+}
+div#informacionUsuario{
+
+	padding-left: 20%;
+}
+
+div#compras_usuario{
+
+	padding-bottom: 2%;
+}
+
+div#favoritos_usuario{
+
+	padding-bottom: 2%;
+}
+
+
+/*
+div#cabecera {
+	padding: 10px;
+	height: 75px;
+	---- float: center; 
+	background-color: #303030;
+	color: white;
+	font-size: 14px
+}
+*/
+
+.super-cabecera{
+	padding-top: 0.25%; /* con esto queda mejor ya que la lupa y el carrito no se pegan arriba*/
+    position:relative;
+	/*padding: 0;*/
+	background-color: #303030;
+}
+.super-cabecera nav{
+    position:relative;
+    width:100%;
+    
+	margin:0 auto;
+	padding: 0;
+	
+}
+
+
+.super-cabecera nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+
+.super-cabecera nav ul li{
+	position:relative;
+	display:inline-block;
+	
+	vertical-align:top;
+
+	margin:0;
+	width:auto;
+	
+}
+table#BTabla{
+	text-align: center;
+	
+}
+
+table#BTabla2{
+	text-align: center;
+	
+}
+
+fieldset#formulario{
+	
+	width: 90%;
+	
+	
+	
+}
+div#contenido_formulario{
+	padding-right:2%;
+	padding-left: 2%;
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+	display: flex;
+	
+}
+div#contenido_modificar_producto { 
+padding-right:2%;
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+	display: flex;
+}
+img.director_chair{
+	width:55%;
+	display:block;
+	margin-top:10%;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#modificar_producto_item2{
+	/*background-image: url("img/director_chair.png");
+	background-size:auto;	
+	
+	background-position:center;
+	max-height:100%;
+	background-repeat: no-repeat;*/
+	width: 50%;
+}
+div#modificar_producto_item1{
+	padding-left:2%;
+	width: 48%;
+	margin: auto 0px;
+	}
+div#contacto_item1{
+	background-image: url("img/oreosupreme.png");
+	background-size:35%;	
+	width: 25%;
+}
+div#contacto_item2{
+	width: 50%;
+	margin: auto 0px;
+	}
+div#contacto_item3{
+	background-image: url("img/oreosupreme.png");
+	background-size:35%;	
+	width: 25%;
+	}
+div#item1{
+	background-image: url("img/skategustavo.png");
+	background-size:100%;	
+	width: 25%;
+}
+div#item2{
+	width: 50%;
+	margin: auto 0px;}
+div#item3{
+	background-image: url("img/skategustavo.png");
+	background-size:100%;	
+	width: 25%;
+	}
+div#login_item1{
+	background-image: url("img/bolisupreme.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100%;	
+	width: 25%;
+}
+div#login_item2{
+	width: 50%;
+	margin: auto 0px;}
+div#login_item3{
+	background-image: url("img/bolisupreme.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100%;	
+	width: 25%;
+	}
+div#vistaAdmin{
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  align-items: start;
+}
+p#tituloAdmin{
+	color:black;
+	text-align:center;
+	font-weight: bold;
+
+}
+
+
+
+
+.super-cabecera nav ul li a{
+	text-decoration:none;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	
+	
+}
+.super-cabecera nav ul li a:hover{
+	text-decoration:none;
+	color:orange;
+	text-decoration: underline;
+}
+.super-cabecera nav ul li a span{
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: bold;
+}
+.super-cabecera nav ul li:hover .carrito1{
+	display:none;
+}
+.super-cabecera nav ul li:hover .carrito2{
+	display:inline;
+}
+.super-cabecera nav ul li .carrito2{
+	display:none;
+}
+
+.super-cabecera nav ul li:hover .buscador{
+	display:none;
+}
+.super-cabecera nav ul li:hover .buscador2{
+	display:inline;
+}
+
+
+.super-cabecera nav ul li .buscador2{
+	display:none;
+}
+
+.super-cabecera nav ul li i{
+	display:block;
+	vertical-align:top;
+	width:100%;
+	color:#999;
+	text-align:center;
+}
+
+
+div#sidebar-left {
+	padding: 10px;
+	float: left;
+	width: 170px;
+	height: 400px;
+	background-color: #dddddd;
+}
+
+div#sidebar-left a, div#sidebar-left a:visited {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#sidebar-left a:hover {
+	color: red;
+	text-decoration: underline;
+} 
+
+
+div#sidebar-right {
+	padding: 10px;
+	float: right;
+	width: 170px;
+	height: 400px;
+	background-color: #dddddd;
+}
+
+div.contenido {
+	padding-bottom: 2%;
+	padding-left: 2%; 
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+}
+
+div.imagenes {
+	padding-right: 1%;
+	padding-left: 2%; 
+	padding-bottom: 2%;
+
+}
+
+div#fc {
+	padding-bottom: 2%;
+}
+
+div#confirmacion {
+	float: center;
+	margin: auto;
+	padding-top: 2%; 
+	padding-left: 2%; 
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+	text-align: center;
+	background-image: url("img/tnfdif.png");
+}
+
+div#contenido_finalizar_compra {
+	/*padding-bottom: 2%;*/
+	/*padding-left: 2%;*/ 
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 100%;
+	background-color: white;
+}
+div#contenido_carrito {
+	float: center;
+	margin: auto;
+	padding-bottom: 2%;
+	padding-left: 2%; 
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+	text-align: center;
+	background-image: url("img/tnfdif.png");
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	color: black;
+}
+div#contenido_finalizarcompra{
+	float: center;
+	margin: auto 0px;
+	padding-left:25%;
+	min-height: 600px;
+	width: 50%;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	color: black;
+	
+}
+div#contenido_modusuario{
+		
+	margin: auto;
+	
+	min-height: 600px;
+	width: 100%;
+	background-color: white;
+	
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	
+
+	
+}
+img.imagencomentario{
+	width:5%;
+	height:auto;
+	
+}
+img.imagenvaloraciones{
+	width:50%;
+	height:auto;
+	
+}
+img#notfound{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+fieldset#fieldsetusuario{
+	height:30%;
+	display:float;
+	flex-direction:row;
+	
+}
+img.ImagenUserMod{
+	height:300px;
+	
+}
+div#fieldusrizq{
+	float:left;
+	width:50%;
+	height:30%;
+}
+div#fieldusrder{
+	float:right;
+	width:50%;
+	height:30%;
+	text-align:center;
+
+}
+
+
+div#contenidoOut {
+	float: center;
+	margin: auto;
+	padding-top: 2%; 
+	padding-left: 2%; 
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+	text-align: center;
+	background-image: url("img/skates2.png");
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: black;
+	font-size: 150px;
+}
+
+div#contenidoPC{
+	float: center;
+	margin: auto;
+	padding-top:15%;
+	min-height: 600px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	background-image: url("img/skates2.png");
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: black;
+	font-size: 30px;
+}
+
+div#CC{
+	float: center;
+	margin:auto 0px;
+	min-height: 600px;
+	padding-top: 5%;
+	width: 100%;
+	background-color: #84f1eb;
+	text-align: center;
+	background-image: url("img/S.png");
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: black;
+	font-size: 25px;
+}
+
+div#contenedor_carrito {
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 10px;
+	display: inline-flex;
+	flex-direction: column;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;		
+}
+
+div#contenido_vistaProductos {
+	padding-right: 3%;
+	padding-bottom: 2%;
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 94%;
+	background-color: white;
+}
+div#contenidoAdmin {
+	padding-bottom: 2%;
+	padding-top: 2%;
+	 
+	float: center;
+	margin: auto;
+	min-height: 600px;
+	width: 98%;
+	background-color: white;
+}
+
+div#productos {
+	text-align: center;
+}
+
+
+p#precioP{
+	color: green;
+	font-weight: bold;
+}
+
+input#botonN{
+	color: #fff;
+	background: #303030;
+	border: 1px solid black;
+}
+
+a#nombreP{
+	color: black;
+	font-weight: bold;
+}
+
+h1#nombreP{
+	color: black;
+	font-weight: bold;
+	font-family: Lobster;
+	font-variant: small-caps;
+}
+
+table#tablaprod{
+	text-align: center;
+}
+
+table#carrito {
+	width: 70%;
+	text-align: center;
+}
+table{
+	width:100%;
+}
+
+table#carrito td:first-child{
+	width:10%;
+	text-align: center;
+}
+table#tablaValoraciones td:first-child{
+	width:10%;
+	
+	
+}
+table#tablaAdmin {
+	
+	text-align: center;
+}
+
+
+td#celdaP {
+	text-align: left;
+}
+
+table#carrito td:last-child {
+	width:5%;
+}
+
+table#carrito {
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #000 url("img/grisc.jpg") no-repeat center center;
+   background-size:100% 100%;
+   color: #fff;
+}
+td, th {
+   background: #fff;
+   color: #000;
+}
+
+img#eliminar{
+	height: 6%;
+	width: 100%;
+}
+
+img#eliminar_fav{
+
+	width: 5%;
+}
+
+div#pie {
+	clear: both;
+	padding: 20px;
+	background-color: #303030;
+	color: white;
+	text-align: center;
+}
+img#notfound{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	width:20%;
+}
+
+div.botones {
+	width: 100%;
+	text-align: center;
+	vertical-align: center;
+	color: white;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+fieldset {
+	border: 1px solid black;
+	width: 95%;/*1403px*/
+	margin: auto;
+	margin-top: 10px;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+legend {
+	color: #fff;
+	background: #303030;
+	border: 1px solid black;
+	padding: 2px 6px;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+} 
+
+label {
+	width: 4em;
+	text-align: right;
+	margin-right: 0.5em;
+	display: inline-block;
+}
+
+button {
+	margin-left: 100px;
+} 
+
+p#nocom{
+	font-size: 150%;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+/*
+ul {
+  
+ 
+  padding: 0;
+
+  overflow: hidden;
+  color: white;
+	font-family: 'Roboto Condensed', "Helvetica Neue", helvetica, arial, sans-serif;
+
+}
+li a, li a:visited {
+	color: white;
+	/*
+	text-decoration: none;
+	
+	 display: inline;
+
+  text-align: center;
+  padding: 0px;
+  
+} */
+/*
+.carrito2{
+	display: none;
+	
+}
+li:hover .carrito1 {
+    display:none;
+}
+
+li:hover .carrito2 {
+    display: inline; /* Or block, whichever you prefer 
+}
+*/
+
+
+
