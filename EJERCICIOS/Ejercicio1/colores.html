@@ -1,0 +1,24 @@
+<head>
+<link id="estilo" href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Pagina sencilla para decorar con estilos</h1>
+
+<p>Este es el primer parrafo, que no tiene nada de especial</p>
+
+<h2>Esto es un titulo de segundo nivel</h2>
+
+<p>Que tiene dentro un parrafo con <em>un fragmento enfatizado</em></p>
+
+<h3>Esto es un titulo de tercer nivel</h3>
+
+<p>El tercer parrafo tampoco tiene nada de especial</p>
+<button type="button" onclick=cambiaCSS("verde.css")>Verde</button ><button type="button" onclick=cambiaCSS("marron.css")>Marron y grande</button ><button type="button" onclick=cambiaCSS("consola.css")>Consola</button >
+<script>
+function cambiaCSS(nuevo) {
+document.getElementById('estilo').setAttribute('href', nuevo);
+}
+
+</script>
+</body>
